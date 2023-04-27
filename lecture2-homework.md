@@ -23,3 +23,12 @@
 - 输出信号：`out`
 
 解决方案见[isEqual.circom](/Lecture2_Code/isEqual.circom)
+
+
+## 第4题 选择器
+
+- 参数：`nChoices`
+- 输入信号：`in[nChoices], index`
+- 输出信号：`out`
+
+解决方案见[Selector.circom](/Lecture2_Code/Selecotr.circom)
