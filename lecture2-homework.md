@@ -31,4 +31,4 @@
 - 输入信号：`in[nChoices], index`
 - 输出信号：`out`
 
-解决方案见[Selector.circom](/Lecture2_Code/Selecotr.circom)
+解决方案见[Selector.circom](/Lecture2_Code/Selector.circom)
