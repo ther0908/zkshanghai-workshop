@@ -5,7 +5,7 @@ template IsZero () {
     signal output out;
 
     signal hint <-- in == 0? 0: 1 / in;
-    out <-- -in * hint + 1;
+    out <== -in * hint + 1;
     in * out === 0;
 }
 
