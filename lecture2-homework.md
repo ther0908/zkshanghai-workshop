@@ -32,3 +32,11 @@
 - 输出信号：`out`
 
 解决方案见[Selector.circom](/Lecture2_Code/Selector.circom)
+
+## 第5题 判负
+
+- 参数：无
+- 输入信号：`in`
+- 输出信号：`out`
+
+解决方案见[IsNegative.circom](/Lecture2_Code/IsNegative.circom)
