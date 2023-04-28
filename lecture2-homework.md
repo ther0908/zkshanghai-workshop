@@ -40,7 +40,7 @@
 - 输出信号：`out`
 
 解决方案见[IsNegative.circom](/Lecture2_Code/IsNegative.circom)
-- 扩展问题：为什么我们不能使用LessThan
+- 扩展问题：为什么我们不能使用LessThan  
 答：如果使用LessThan，当`in[0] > in[1]时`，计算`del_val.in <== in[0] - in[1] + (1<<252)`时会发生溢出，最高位可能会变成0。
 
 ## 第6题 少于
