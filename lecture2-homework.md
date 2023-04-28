@@ -47,4 +47,4 @@
 - 输入信号：`in[2]`
 - 输出信号：`out`
 
-解决方案见[LessThan.circom](/Lecture2_Code/LessThan.circom)，包含LessThan、LessEqThan、GreaterThan、GreaterEqThan。
+扩展问题2：解决方案见[LessThan.circom](/Lecture2_Code/LessThan.circom)，包含LessThan、LessEqThan、GreaterThan、GreaterEqThan。
