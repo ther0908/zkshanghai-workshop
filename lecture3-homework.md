@@ -7,4 +7,4 @@
 
 ## 第2题 二次剩余的证明
 完备性：当 $b=0$ 时，Prover向Verifier发送 $u=t$，Verifier计算 $u^{2}x=t^{2}x=y$，因此Verifier接受；当 $b=1$ 时，Prover向Verifier发送 $u=st$，Verifier计算 $u^{2}=(st)^{2}=t^{2}x=y$，因此Verifier接受。  
-可靠性：如果 $QR(m,x)=0$ 时或者 $QR(m,x)=1$ 但是Prover不知道有效的s时，
+可靠性：如果 $QR(m,x)=0$ 时或者 $QR(m,x)=1$ 但是Prover不知道有效的s时，当 $b=0$ 时，总是能通过验证；当 $b=1$时，因为Prover不知道有效的s，因此总是失败。综上Verifier总是以 $\ge 1/2$ 的概率拒绝。
